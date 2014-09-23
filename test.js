@@ -26,3 +26,12 @@ test('strips extension from path with query parameters', function (t) {
   
   t.end();
 });
+
+test('does nothing if there is no extension', function (t) {
+  
+  var extlessUrl = '/no/ext?param=test';
+  
+  t.equal(stripExtension(extlessUrl), '/no/ext?param=test', 'returns same value');
+  
+  t.end();
+});
