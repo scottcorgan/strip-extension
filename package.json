@@ -1,7 +1,7 @@
 {
   "name": "strip-extension",
   "version": "1.0.0",
-  "description": "Strip extension from a path",
+  "description": "Strip extension from a path. Also works when query parameters are involved",
   "main": "index.js",
   "scripts": {
     "test": "node test.js | tap-spec"
