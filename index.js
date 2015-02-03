@@ -1,4 +1,4 @@
-var zipObject = require('lodash.zipobject');
+var zipObject = require('zip-object');
 
 var exports = module.exports = function stripExtension (pathname) {
   

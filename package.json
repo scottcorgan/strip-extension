@@ -1,6 +1,6 @@
 {
   "name": "strip-extension",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Strip extension from a path. Also works when query parameters are involved",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/scottcorgan/strip-extension",
   "dependencies": {
-    "lodash.zipobject": "^2.4.1"
+    "zip-object": "^0.1.0"
   },
   "devDependencies": {
-    "tap-spec": "^1.0.0",
+    "tap-spec": "^2.2.0",
     "tape": "^3.0.0"
   }
 }
